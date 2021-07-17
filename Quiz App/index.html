@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>quiz app</title>
+  <title>gyeong su's quiz app</title>
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
 </head>
+
 <body>
-  
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Q&A</h2>
+      <ul>
+        <li><input type="radio" id="a" class="answer"><label id="a_text" for="a">Quiz</label>
+        <li>
+        <li><input type="radio" id="b" class="answer"><label id="b_text" for="a">Quiz</label></li>
+        <li><input type="radio" id="c" class="answer"><label id="c_text" for="a">Quiz</label></li>
+        <li><input type="radio" id="d" class="answer"><label id="d_text" for="a">Quiz</label></li>
+      </ul>
+    </div>
+    <button id="submit">Submit</button>
+  </div>
 </body>
+
 </html>
