@@ -40,8 +40,8 @@ const Wrap = styled.div`
   background-image:url('/images/model-3.jpg');
   display:flex;
   flex-direction:column;
-  justify-content:space-between; //vertical
-  align-items:center; //horizontal
+  justify-content:space-between; 
+  align-items:center; 
   background-image:${props => `url("/images/${props.bgImage}")`}
 `
 
@@ -71,7 +71,7 @@ const LeftButton = styled.div`
   opacity:0.85;
   text-transform:uppercase;
   font-size:12px;
-  cusor:pointer;
+  cursor:pointer;
   margin:8px;
 `
 
@@ -85,7 +85,7 @@ const RightButton = styled(LeftButton)`
 const DownArrow = styled.img`
   height:40px;
   overflow-x:hidden;
-  animation: animateDown infintie 1.5s;
+  animation: animateDown infinite 1.5s;
 `
 
 const Buttons = styled.div`
