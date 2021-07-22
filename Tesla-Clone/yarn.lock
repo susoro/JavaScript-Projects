@@ -13,7 +13,7 @@
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.14.5.tgz#848d7b9f031caca9d0cd0af01b063f226f52d785"
   integrity sha512-y3rlP+/G25OIX3mYKKIOlQRcqj7YgrvHxOLbVmyLJ9bPmi5ttvUmpydVjcFjZphOktWuA7ovbx91ECloWTfjIA==
-  dependencies:
+  dependencies: 
     "@babel/types" "^7.14.5"
     jsesc "^2.5.1"
     source-map "^0.5.0"
