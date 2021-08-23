@@ -1,5 +1,5 @@
 let list = document.querySelectorAll('.list');
-let itemBox = document.querySelectorAll('.iteBox');
+let itembox = document.querySelectorAll('.itembox');
 
 
 for (let i = 0; i<list.length; i++){
@@ -8,9 +8,19 @@ for (let i = 0; i<list.length; i++){
       list[j].classList.remove('active');
     }
     this.classList.add('active');
-    let dataFilter = this.getAttribute('data-filter');
-    for (let k = 0; k<items.length; k++;){
 
+    let dataFilter = this.getAttribute('data-filter');
+    for (let k = 0; k<itembox.length; k++){
+      itembox[k].classList.remove('active');
+      itembox[k].classList.add('hide');
+
+
+
+      if(itembox[k].getAttribute('data-item') == dataFilter ||
+      dataFilter == "all"){
+        itembox[k].classList.remove('hide');
+        itembox[k].classList.add('active');
+      }
     }
   })
 }
